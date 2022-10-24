@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* animation: name duration timing-function delay iteration-count direction fill-mode */
+#loading_portal {
+  will-change: transform;
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  pointer-events: none;
+  width: 300px;
+  height: auto;
+  animation: rotation 3s linear 0s infinite normal forwards;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 500px) {
+  #loading_portal {
+    width: 60%;
+  }
+}

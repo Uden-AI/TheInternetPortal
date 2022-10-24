@@ -1,0 +1,1 @@
+The file "get_domain.php" contains your login credentials, hence the "button.php" requests it, as get_domain.php is supposed to be outside of "/var/www/html/" since that directory is public!

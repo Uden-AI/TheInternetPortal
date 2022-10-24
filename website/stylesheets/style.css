@@ -1,0 +1,140 @@
+@charset "utf-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+header {
+  display: inline-block;
+  width: 320px;
+  margin-top: 30px;
+}
+#content {
+  padding-top: 30px;
+  padding-bottom: 150px;
+  width: 50%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  margin: 3px;
+}
+h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+hr {
+  border: none;
+  border-top: 2px solid #6633ff;
+}
+button {
+  text-align: center;
+  background-color: #6633ff;
+  border: none;
+  width: 160px;
+  height: 70px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 30px;
+  transition-duration: 0.08s;
+}
+button:focus {
+  box-shadow: 0 0 0pt 2pt #8157ff inset;
+  outline: none;
+}
+button:hover {
+  background-color: #8157ff;
+}
+button:active {
+  transform: scale(0.8);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0px;
+}
+small {
+  color: #313131;
+  margin: 0px 5px;
+  
+}
+#socials {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 150%;
+  width: 180px;
+}
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 0px;
+  padding-left: 30px;
+}
+
+/* FORK ME ON GITHUB CSS BY https://forkmeon.github.io/ */
+.github-ribbon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  z-index: 99999;
+  right: 0px;
+  top: 0px;
+}
+.github-ribbon a {
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  padding: 6px 0px;
+  text-align: center;
+  transform: rotate(45deg);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: inherit;
+  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px;
+  background-color: #6633ff;
+  right: -40px;
+  top: 45px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #content {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  button {
+    width: 90%;
+  }
+  #content {
+    width: 90%;
+  }
+  header {
+    width: 80%;
+  }
+}
