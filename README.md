@@ -4,11 +4,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/badges/Uden-AI/TheInternetPortal" alt="License">
+    <a href="https://github.com/Uden-AI/TheInternetPortal/blob/master/LICENSE" alt="License">
         <img src="https://img.shields.io/github/license/Uden-AI/TheInternetPortal" /></a>
     <a href="https://github.com/Uden-AI/TheInternetPortal/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/Uden-AI/TheInternetPortal" /></a>
-    <a href="https://github.com/badges/Uden-AI/TheInternetPortal" alt="Activity">
+    <a href="https://github.com/Uden-AI/TheInternetPortal/graphs/commit-activity" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/TheInternetPortal" /></a>
     <br>
     <b>Your One Way Ticket to the Madness of the Internet</b>
