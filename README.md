@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://theinternetportal.net/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/TheInternetPortal/master/website/assets/images/logo-white.svg?sanitize=true"
-        height="130"></a>
+        height="300"></a>
 </p>
 
 <p align="center">
