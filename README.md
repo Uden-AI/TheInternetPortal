@@ -33,6 +33,7 @@
     - [Setup With Any PHP-Webhost](#setup-with-any-php-webhost)
   - [Step 3:](#step-3-import-database-containing-all-domains) Import Database Containing All Domains
 
+**In Collaboration With [Fediverse-Share](https://github.com/Uden-AI/fediverse-share), Made for The Internet Portal!**
 
 <br>
 <br>
